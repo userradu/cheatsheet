@@ -10,6 +10,10 @@
 | Delete a local branch | `git branch -D <branch-name>` | `-D` Stands for `--delete --force`, will delete the branch regardless of its merge status
 | Delete a remote branch | `git push <remote-name> --delete <branch-name>`
 
+# Remote changes
+
 | Action | Command | Notes |
 | ------ | ------- | ----- |
 | Get the latest updates but don't integrate them | `git fetch --all`
+| Get the latest updates of the current branch and integrate them | `git pull`
+| Display a tree of commits | `git log --graph --all --decorate --oneline`
