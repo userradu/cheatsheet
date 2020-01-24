@@ -1,4 +1,4 @@
-# Branch Management
+## Branch Management
 
 | Action | Command |
 | ------ | ------- |
@@ -12,7 +12,7 @@
 
 <br/>
 
-# Tracking Branches
+## Tracking Branches
 
 By default, local and remote branches in Git have nothing to do with each other. 
 <br/>
@@ -36,7 +36,7 @@ If you want for a local branch to track an existing remote branch, use the follo
 
 <br/>
 
-# Get remote changes
+## Get remote changes
 
 | Action | Command |
 | ------ | ------- |
@@ -46,19 +46,19 @@ If you want for a local branch to track an existing remote branch, use the follo
 
 <br/>
 
-# Publishing you local changes
+## Publishing you local changes
 
-## No tracking set
+### No tracking set
 
 `git push <remote> <branch>`
 
 Example: `git push origin master` (push from the local branch named `master` to the remote branch named `master`)
 
-## Tracking set
+### Tracking set
 
 `git push`
 
-## Pushing commits to another branch
+### Pushing commits to another branch
 
 If your local branch has a different name to the remote branch, use the following command:
 <br/>
