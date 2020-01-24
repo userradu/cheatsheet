@@ -12,8 +12,8 @@
 
 # Remote changes
 
-| Action | Command | Notes |
-| ------ | ------- | ----- |
+| Action | Command |
+| ------ | ------- |
 | Get the latest updates but don't integrate them | `git fetch --all`
 | Get the latest updates of the current branch and integrate them | `git pull`
 | Display a tree of commits | `git log --graph --all --decorate --oneline`
