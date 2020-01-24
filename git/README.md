@@ -1,4 +1,4 @@
-## Print all local branches
+### Print all local branches
 
 `git branch`
 
