@@ -44,6 +44,8 @@ If you want for a local branch to track an existing remote branch, use the follo
 | Get the latest updates of the current branch and integrate them | `git pull <remote> <branch>` <br/> <br/> `git pull` (if tracking is set)
 | Display a tree of commits | `git log --graph --all --decorate --oneline`
 
+<br/>
+
 # Publishing you local changes
 
 ## No tracking set
