@@ -3,6 +3,7 @@
 | Action | Command |
 | ------ | ------- |
 | Print all local branches |  `git branch` | 
+| Print all remote branches | `git branch -r`
 | Print all branches (remote + local) | `git branch -a`
 | Go to an existing branch | `git checkout <branch-name>`
 | Create a new branch and switch to it | `git checkout -b <branch-name>`
@@ -40,7 +41,9 @@ If you want for a local branch to track an existing remote branch, use the follo
 
 | Action | Command |
 | ------ | ------- |
-| Get the latest updates but don't integrate them | `git fetch --all`
+| Get the latest updates from origin but don't integrate them | `git fetch`
+| Delete refs to branches that don't exist on the remote | `git remote prune origin`
+| Before fetching, remove any refs that no longer exist on the remote | `git fetch --prune` or `git fetch -p`
 | Get the latest updates of the current branch and integrate them | `git pull <remote> <branch>` <br/> <br/> `git pull` (if tracking is set)
 | Display a tree of commits | `git log --graph --all --decorate --oneline`
 
