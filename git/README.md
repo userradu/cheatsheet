@@ -10,6 +10,9 @@
 | Delete a local branch <br/>`-d` the branch must be fully merged in its upstream branch, or in HEAD if no upstream was set | `git branch -d <branch-name>` | 
 | Delete a local branch <br/> `-D` stands for `--delete --force`, will delete the branch regardless of its merge status | `git branch -D <branch-name>` |
 | Delete a remote branch | `git push <remote-name> --delete <branch-name>`
+| List branches merged into master **(specify `-a` or `-r` after `branch` to display local+remote or just remote)** | `git branch --merged master`
+| List branches merged into the HEAD **(specify `-a` or `-r` after `branch` to display local+remote or just remote)** | `git branch --merged`
+| List branches that have not been merged **(specify `-a` or `-r` after `branch` to display local+remote or just remote)** | `git branch --no-merged`
 
 <br/>
 
