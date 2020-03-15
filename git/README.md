@@ -69,3 +69,10 @@ Example: `git push origin master` (push from the local branch named `master` to 
 If your local branch has a different name to the remote branch, use the following command:
 <br/>
 `git push <remote> <local-branch>:<remote-branch>`
+
+## Discarding changes
+
+| Action | Command |
+| ------ | ------- |
+| Discard local changes to a file | `git checkout -- <file>`
+| Discard all changes to all files | `git reset --hard`
